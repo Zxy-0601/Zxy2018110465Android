@@ -25,6 +25,6 @@
     <fragment
         android:id="@+id/navigation_watch"
         android:name="com.example.zxy2018110465.ui.watch.WatchFragment"
-        android:label="watch_fragment"
+        android:label="@string/title_watch"
         tools:layout="@layout/watch_fragment" />
 </navigation>
