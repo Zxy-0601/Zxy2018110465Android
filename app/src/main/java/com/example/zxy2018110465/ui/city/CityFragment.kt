@@ -1,5 +1,6 @@
 package com.example.zxy2018110465.ui.city
 
+import android.app.Activity
 import android.app.Application
 import android.content.Intent
 import android.os.Bundle
@@ -31,7 +32,7 @@ class CityFragment : Fragment() {
         viewModel = ViewModelProvider(this,ViewModelProvider.AndroidViewModelFactory(Application())).get(CityViewModel::class.java)
         viewModel.cities.observe(this, Observer {
             val cities = it
-            val adapter = ArrayAdapter<CityItem>(this.requireContext(), android.R.layout.simple_list_item_1, cities)//准备适配器
+            val adapter = ArrayAdapter<CityItem>(Activity(), android.R.layout.simple_list_item_1, cities)//准备适配器
             listView.adapter = adapter
             listView.setOnItemClickListener { _, _, position, _ ->
                 val CityCode = cities[position].city_code
