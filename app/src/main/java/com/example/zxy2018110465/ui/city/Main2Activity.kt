@@ -1,4 +1,4 @@
-package com.example.zxy2018110465.ui.notifications
+package com.example.zxy2018110465.ui.city
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -6,8 +6,8 @@ import android.util.Log
 import android.widget.ArrayAdapter
 import com.android.volley.toolbox.StringRequest
 import com.android.volley.toolbox.Volley
-import com.example.zxy2018110465.ui.notifications.weather.Forecast
-import com.example.zxy2018110465.ui.notifications.weather.Weather
+import com.example.zxy2018110465.ui.city.weather.Forecast
+import com.example.zxy2018110465.ui.city.weather.Weather
 import com.example.zxy2018110465.R
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken

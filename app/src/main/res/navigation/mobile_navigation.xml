@@ -19,7 +19,7 @@
 
     <fragment
         android:id="@+id/navigation_weather"
-        android:name="com.example.zxy2018110465.ui.notifications.CityFragment"
+        android:name="com.example.zxy2018110465.ui.city.CityFragment"
         android:label="@string/title_weather"
         tools:layout="@layout/fragment_city" />
     <fragment

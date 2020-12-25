@@ -1,4 +1,4 @@
-package com.example.zxy2018110465.ui.notifications.weather
+package com.example.zxy2018110465.ui.city.weather
 
 data class Forecast(
     val aqi: Int,

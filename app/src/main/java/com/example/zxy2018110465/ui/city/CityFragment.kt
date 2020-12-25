@@ -1,4 +1,4 @@
-package com.example.zxy2018110465.ui.notifications
+package com.example.zxy2018110465.ui.city
 
 import android.content.Intent
 import android.os.Bundle
