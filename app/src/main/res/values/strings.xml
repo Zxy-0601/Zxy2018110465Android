@@ -8,4 +8,14 @@
     <string name="start">Start</string>
     <string name="stop">Stop</string>
     <string name="restart">Restart</string>
+    <string name="button">确定</string>
+    <string-array name="list">
+        <item>快速</item>
+        <item>容易</item>
+        <item>新语言</item>
+        <item>面向对象</item>
+    </string-array>
+    <string name="button2">ADD TEXTVIEW</string>
+    <string name="textview">TextView</string>
+    <string name="title_weather">weather</string>
 </resources>
