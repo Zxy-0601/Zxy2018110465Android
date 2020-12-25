@@ -22,4 +22,9 @@
         android:name="com.example.zxy2018110465.ui.notifications.NotificationsFragment"
         android:label="@string/title_notifications"
         tools:layout="@layout/fragment_notifications" />
+    <fragment
+        android:id="@+id/navigation_watch"
+        android:name="com.example.zxy2018110465.ui.watch.WatchFragment"
+        android:label="watch_fragment"
+        tools:layout="@layout/watch_fragment" />
 </navigation>
