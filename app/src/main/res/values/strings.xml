@@ -22,4 +22,5 @@
     <string name="a">A*</string>
     <string name="score">score: </string>
     <string name="reset">reset</string>
+    <string name="change">I am clicked!</string>
 </resources>
