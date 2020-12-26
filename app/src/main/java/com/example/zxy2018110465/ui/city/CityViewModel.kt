@@ -31,7 +31,7 @@ class CityViewModel (application: Application): AndroidViewModel(application){
 
     }
     //读取资源文件
-    fun readFileFromRaw(rawName: Int): String? {
+    private fun readFileFromRaw(rawName: Int): String? {
         try {
             val inputReader = InputStreamReader(getApplication<Application>().resources.openRawResource(rawName))
             val bufReader = BufferedReader(inputReader)
