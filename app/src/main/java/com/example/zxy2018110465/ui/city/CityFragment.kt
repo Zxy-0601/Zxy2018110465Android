@@ -33,7 +33,7 @@ class CityFragment : Fragment() {
         viewModel = ViewModelProvider(this,ViewModelProvider.AndroidViewModelFactory(activity?.application!!)).get(CityViewModel::class.java)
         viewModel.cities.observe(this, Observer {
             val cities = it
-            val adapter = ArrayAdapter(Activity(), android.R.layout.simple_list_item_1, cities)//准备适配器
+            val adapter = ArrayAdapter(requireActivity(), android.R.layout.simple_list_item_1, cities)//准备适配器
             listView.adapter = adapter
             listView.setOnItemClickListener { _, _, position, _ ->
                 val CityCode = cities[position].city_code
