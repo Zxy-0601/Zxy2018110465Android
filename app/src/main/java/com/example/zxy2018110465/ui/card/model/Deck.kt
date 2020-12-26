@@ -1,6 +1,6 @@
-package com.example.zxy2018110465.ui.dashboard.model
+package com.example.zxy2018110465.ui.card.model
 
-import java.util.*
+import java.util.Random
 
 class Deck() {
     private val cards = mutableListOf<Card>()
