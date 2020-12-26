@@ -38,7 +38,7 @@ class CityFragment : Fragment() {
             listView.setOnItemClickListener { _, _, position, _ ->
                 val CityCode = cities[position].city_code
                 //构建意图
-                val intent = Intent(this.context, Main2Activity::class.java)
+                val intent = Intent(context, Main2Activity::class.java)
                 intent.putExtra("city_code", CityCode)
                 startActivity(intent)
 
