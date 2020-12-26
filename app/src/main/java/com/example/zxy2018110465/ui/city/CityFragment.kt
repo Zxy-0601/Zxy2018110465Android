@@ -21,6 +21,7 @@ class CityFragment : Fragment() {
 
     private lateinit var viewModel: CityViewModel
 
+
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
@@ -29,7 +30,7 @@ class CityFragment : Fragment() {
     }
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        viewModel = ViewModelProvider(this,ViewModelProvider.AndroidViewModelFactory(Application())).get(CityViewModel::class.java)
+        viewModel = ViewModelProvider(this,ViewModelProvider.AndroidViewModelFactory(activity?.application!!)).get(CityViewModel::class.java)
         viewModel.cities.observe(this, Observer {
             val cities = it
             val adapter = ArrayAdapter<CityItem>(Activity(), android.R.layout.simple_list_item_1, cities)//准备适配器
