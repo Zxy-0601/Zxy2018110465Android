@@ -1,4 +1,4 @@
-package com.example.fourth.model
+package com.example.zxy2018110465.ui.dashboard.model
 
 class CardMatchingGame(val count: Int)  {
     var score = 0

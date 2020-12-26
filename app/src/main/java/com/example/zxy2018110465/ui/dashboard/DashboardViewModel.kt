@@ -6,7 +6,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
 import androidx.recyclerview.widget.RecyclerView
-import com.example.fourth.model.CardMatchingGame
+import com.example.zxy2018110465.ui.dashboard.model.CardMatchingGame
 import com.example.zxy2018110465.R
 
 class DashboardViewModel(val game: CardMatchingGame): RecyclerView.Adapter<DashboardViewModel.ViewHolder>() {

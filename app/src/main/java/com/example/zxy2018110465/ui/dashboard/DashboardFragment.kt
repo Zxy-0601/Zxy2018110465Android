@@ -7,7 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.GridLayoutManager
-import com.example.fourth.model.CardMatchingGame
+import com.example.zxy2018110465.ui.dashboard.model.CardMatchingGame
 import com.example.zxy2018110465.R
 import kotlinx.android.synthetic.main.fragment_dashboard.*
 

@@ -1,4 +1,4 @@
-package com.example.fourth.model
+package com.example.zxy2018110465.ui.dashboard.model
 
 class Card(private var suit: String, private var rank: String, var isChosen:Boolean = false, var isMatched:Boolean = false)  {
     companion object {
