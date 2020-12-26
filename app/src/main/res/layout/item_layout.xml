@@ -8,6 +8,6 @@
         android:id="@+id/button"
         android:layout_width="110dp"
         android:layout_height="100dp"
-        android:textSize="20sp"
-        android:text="@string/a" />
+        android:text="@string/a"
+        android:textSize="14sp" />
 </LinearLayout>
