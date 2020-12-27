@@ -23,6 +23,7 @@ class CardFragment : Fragment() {
     companion object {
         private lateinit var game: CardMatchingGame
     }
+
     val cardButtons = mutableListOf<Button>()
     lateinit var adapter: CardViewModel
 
